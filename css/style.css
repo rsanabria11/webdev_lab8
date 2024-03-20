@@ -4,9 +4,29 @@
 }
 
 #navbar-container {
-
+	float: left;
+	width: 100%;
+	position: relative;
 }
 
 #navbar-container ul {
-	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	left: 50%;
+	float: left;
+
+}
+
+#navbar-container ul li{
+	float: left;
+	position: relative;
+	left: 50%;
+	float: left;
+}
+
+#navbar-container ul li a {
+	display: block;
+	padding: 10px 20px;
 }
