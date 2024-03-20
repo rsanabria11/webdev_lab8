@@ -1,7 +1,6 @@
 #main-navbar {
 	background-color: blue;
 	overflow: hidden;
-	width: 100%;
 }
 
 #navbar-container {
@@ -10,7 +9,7 @@
 	position: relative;
 }
 
-#navbar-container ul {
+#main-navabr ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -20,14 +19,14 @@
 
 }
 
-#navbar-container ul li{
+#main-navbar ul li{
 	float: left;
 	position: relative;
-	left: 50%;
-	float: left;
+	right: 50%;
+	display: block;
 }
 
-#navbar-container ul li a {
+#main-navbar ul li a {
 	display: block;
 	padding: 10px 20px;
 	color: #fff;
@@ -46,6 +45,9 @@
 #sidebar {
 	position: fixed;
 	right: 0%;
+	background-color: red;
+	height: 100%;
+	width: 20%;
 }
 
 #sidebar ul {
